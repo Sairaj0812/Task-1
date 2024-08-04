@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4b19be;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#home {
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0G0RrozYhtWealhXo9t-V9vpSL7GgQB-HSQ&s;') ;
+    color: #080606;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#home h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+#home h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+.booking-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #520ca1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about, #services, #contact {
+    background-color: #c4b7da;
+    margin-top: 20px;
+}
+
+#services .service {
+    display: inline-block;
+    width: 30%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#contact {
+    background: #c4b7da;
+    color: #000;
+    text-align: center;
+    padding: 100px 20px;
+
+}
+.submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #520ca1;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+footer {
+    background-color: #4b19be;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
